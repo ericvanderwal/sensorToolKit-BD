@@ -4,6 +4,10 @@ Enjoy!
 
 This project requires Unity 3D (5.5 or above tested), Behavior Designer and Sensor Tookit from the Unity Asset Store.
 
+## Instructions
+
+These actions currently only work with the Trigger Sensor component of the Sensor Toolkit. The code can be easily modified to work with other Sensor Tookit components by replacing TriggerSensor with your prefered component in each script.
+
 ## License
 
 **(c) Eric Vander Wal, 2018 All rights reserved**
