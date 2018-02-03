@@ -1,4 +1,5 @@
 ﻿// Dumb Game Dev 2018
+// Eric Vander Wal
 
 using UnityEngine;
 using BehaviorDesigner.Runtime;
