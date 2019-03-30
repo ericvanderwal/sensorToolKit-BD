@@ -2,12 +2,10 @@
 // Eric Vander Wal
 
 using UnityEngine;
-using Opsive.ThirdPersonController;
 using SensorToolkit;
 using System.Linq;
 using BehaviorDesigner.Runtime;
 using BehaviorDesigner.Runtime.Tasks;
-using BehaviorDesigner.Runtime.Tasks.Movement;
 using Tooltip = BehaviorDesigner.Runtime.Tasks.TooltipAttribute;
 
 
@@ -17,13 +15,13 @@ namespace BehaviorDesigner.Runtime.Tasks.Basic.UnityBehaviour
 	[TaskDescription("Get all the LOS targets on a specific game object.")]
     public class SensorGetAllLOSPoints : Action
     {
-	    [Tooltip("The sensor game object.")]
+	    [Tasks.Tooltip("The sensor game object.")]
 	    public SharedGameObject m_selfObject;
 
-	    [Tooltip("The target object whose raycast targets should be queried.")]
+	    [Tasks.Tooltip("The target object whose raycast targets should be queried.")]
 	    public SharedGameObject m_targetObject;
 
-	    [Tooltip("Store the array of visible LOSTarget Transforms here.")]
+	    [Tasks.Tooltip("Store the array of visible LOSTarget Transforms here.")]
 	    public SharedGameObjectList m_storeTargetTransforms;
 
 	    private TriggerSensor sensor;

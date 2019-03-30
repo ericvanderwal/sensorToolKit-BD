@@ -2,7 +2,6 @@
 // Eric Vander Wal
 
 using UnityEngine;
-using Opsive.ThirdPersonController;
 
 namespace BehaviorDesigner.Runtime.Tasks.Basic.UnityBehaviour
 {
